@@ -1,0 +1,9 @@
+The corrected CSS code includes spaces around the operators in the `calc()` function:
+
+```css
+.element {
+  width: calc(50% - 10px);
+}
+```
+
+This ensures the CSS parser correctly interprets and calculates the width.
