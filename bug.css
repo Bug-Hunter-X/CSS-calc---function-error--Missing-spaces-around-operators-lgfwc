@@ -1,0 +1,9 @@
+The following CSS code uses the `calc()` function incorrectly, leading to unexpected results:
+
+```css
+.element {
+  width: calc(50% - 10px);
+}
+```
+
+The issue is that the `calc()` function requires spaces around the operators (+, -, *, /).  Without spaces, the CSS parser interprets it incorrectly.
